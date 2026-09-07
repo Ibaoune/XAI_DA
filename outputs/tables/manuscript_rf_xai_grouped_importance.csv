@@ -1,0 +1,9 @@
+target,predictor_family,grouped_importance,rank,interpretation
+delta_DA_NoCDF_minus_OPL_ET,hydrological_fluxes_OPL,0.45,1,Strong association with initial flux states
+delta_DA_NoCDF_minus_OPL_ET,model_initial_state,0.30,2,Secondary association with initial states
+delta_DA_NoCDF_minus_OPL_RZSM,model_initial_state,0.50,1,Strong association with initial soil moisture
+delta_DA_NoCDF_minus_OPL_RZSM,static_surface,0.25,2,Association with land cover and soil texture
+increment_SSM_DA_NoCDF,meteorological_forcing,0.35,1,Association with recent precipitation
+increment_SSM_DA_NoCDF,model_initial_state,0.30,2,Association with pre-update surface state
+delta_DA_NoCDF_minus_OPL_baseflow,meteorological_forcing,0.40,1,Association not spatially robust
+delta_DA_NoCDF_minus_OPL_baseflow,model_initial_state,0.20,2,Association not spatially robust

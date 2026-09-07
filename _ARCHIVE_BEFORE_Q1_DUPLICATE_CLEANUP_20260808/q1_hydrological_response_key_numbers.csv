@@ -1,0 +1,19 @@
+target,period,DA_NoCDF_minus_OPL_mean,DA_CDF_minus_OPL_mean,NoCDF_minus_CDF_mean,unit,main_interpretation
+SSM,annual,-0.0173968616873025,-0.0091568771749734,-0.0082399854436516,m3/m3,State variable directly affected by assimilation.
+SSM,DJF,-0.0314774960279464,-0.0165074039250612,-0.0149700893089175,m3/m3,State variable directly affected by assimilation.
+SSM,JJA,0.0063495635986328,0.0027223255019634,0.0036272380966693,m3/m3,State variable directly affected by assimilation.
+RZSM,annual,-0.0146672027185559,-0.0084718996658921,-0.0061953030526638,m3/m3,State variable directly affected by assimilation.
+RZSM,DJF,-0.0150813506916165,-0.0104911727830767,-0.0045901774428784,m3/m3,State variable directly affected by assimilation.
+RZSM,JJA,-0.0117060719057917,-0.0052185510285198,-0.0064875218085944,m3/m3,State variable directly affected by assimilation.
+ET,annual,-0.0479524768700442,0.0458420145825593,-0.0937944914526035,mm/day,ET remains non-negligibly affected.
+ET,DJF,-0.0906244681129785,0.0188946459588911,-0.1095191140718697,mm/day,ET remains non-negligibly affected.
+ET,JJA,0.104902229642874,0.1007989741467674,0.0041032554961066,mm/day,ET remains non-negligibly affected.
+total_runoff,annual,0.0269481934871047,0.0003952105141136,0.026552982972991,mm/day,CDF matching strongly attenuates the response.
+total_runoff,DJF,0.0485775685693449,0.0018460537463671,0.0467315148229777,mm/day,CDF matching strongly attenuates the response.
+total_runoff,JJA,0.0106186439952322,-0.0001531404025234,0.0107717843977557,mm/day,CDF matching strongly attenuates the response.
+surface_runoff,annual,0.0021313295590842,-0.0001740817033803,0.0023054112624645,mm/day,CDF matching strongly attenuates the response.
+surface_runoff,DJF,0.0032465950560607,7.213838717137219e-05,0.0031744566688893,mm/day,CDF matching strongly attenuates the response.
+surface_runoff,JJA,0.0002478812406581,4.666830121747647e-05,0.0002012129394407,mm/day,CDF matching strongly attenuates the response.
+baseflow,annual,0.0248168639280205,0.000569292217494,0.0242475717105264,mm/day,CDF matching strongly attenuates the response.
+baseflow,DJF,0.0453309735132842,0.0017739153591957,0.0435570581540884,mm/day,CDF matching strongly attenuates the response.
+baseflow,JJA,0.010370762754574,-0.0001998087037409,0.010570571458315,mm/day,CDF matching strongly attenuates the response.

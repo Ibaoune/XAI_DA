@@ -1,0 +1,5 @@
+target,top_predictors_temporal,top_predictors_spatial_CV,common_predictors,predictors_lost_in_spatial_CV,predictors_gained_in_spatial_CV,cautious_interpretation
+increment_SSM_DA_NoCDF,"SSM_OPL, precipitation, land_cover","SSM_OPL, soil_texture, land_cover","SSM_OPL, land_cover","precipitation","soil_texture","Initial surface states and static properties are associated with increments"
+delta_DA_NoCDF_minus_OPL_RZSM,"RZSM_OPL, SSM_OPL, land_cover","RZSM_OPL, ET_OPL, soil_texture","RZSM_OPL","SSM_OPL, land_cover","ET_OPL, soil_texture","Deep propagation is associated with prior states and static properties"
+delta_DA_NoCDF_minus_OPL_ET,"ET_OPL, RZSM_OPL, LST","ET_OPL, RZSM_OPL, land_cover","ET_OPL, RZSM_OPL","LST","land_cover","ET response is strongly associated with initial flux states"
+delta_DA_NoCDF_minus_OPL_baseflow,"precipitation, RZSM_OPL","None","None","precipitation, RZSM_OPL","None","Baseflow associations do not generalize spatially, limiting interpretation"

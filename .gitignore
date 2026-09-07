@@ -1,0 +1,9 @@
+data/processed/
+outputs/models/
+outputs/netcdf/
+outputs/figures/
+jobs/logs/
+*.parquet
+*.joblib
+*.nc
+*.log

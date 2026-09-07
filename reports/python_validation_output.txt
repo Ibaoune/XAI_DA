@@ -1,0 +1,45 @@
+Shape: (961800, 66)
+Years: [2016, 2017, 2018, 2019, 2020]
+Months per year:
+year
+2016    12
+2017    12
+2018    12
+2019    12
+2020    12
+Name: month, dtype: int64
+Rows per month:
+count       60.0
+mean     16030.0
+std          0.0
+min      16030.0
+25%      16030.0
+50%      16030.0
+75%      16030.0
+max      16030.0
+dtype: float64
+Targets:
+['increment_SMC_L1_DA_NoCDF', 'increment_SSM_DA_NoCDF', 'increment_SMC_L2_DA_NoCDF', 'increment_SMC_L3_DA_NoCDF', 'increment_SMC_L4_DA_NoCDF', 'increment_RZSM_DA_NoCDF', 'increment_SMC_L1_DA_CDF', 'increment_SSM_DA_CDF', 'increment_SMC_L2_DA_CDF', 'increment_SMC_L3_DA_CDF', 'increment_SMC_L4_DA_CDF', 'increment_RZSM_DA_CDF', 'delta_NoCDF_minus_CDF_SSM', 'delta_DA_NoCDF_minus_OPL_RZSM', 'delta_DA_CDF_minus_OPL_RZSM', 'delta_DA_NoCDF_minus_OPL_ET', 'delta_DA_CDF_minus_OPL_ET', 'delta_DA_NoCDF_minus_OPL_runoff', 'delta_DA_NoCDF_minus_OPL_baseflow', 'delta_increment_NoCDF_minus_CDF_SSM', 'delta_increment_NoCDF_minus_CDF_RZSM']
+Missing values in targets:
+increment_SMC_L1_DA_NoCDF               0
+increment_SSM_DA_NoCDF                  0
+increment_SMC_L2_DA_NoCDF               0
+increment_SMC_L3_DA_NoCDF               0
+increment_SMC_L4_DA_NoCDF               0
+increment_RZSM_DA_NoCDF                 0
+increment_SMC_L1_DA_CDF                 0
+increment_SSM_DA_CDF                    0
+increment_SMC_L2_DA_CDF                 0
+increment_SMC_L3_DA_CDF                 0
+increment_SMC_L4_DA_CDF                 0
+increment_RZSM_DA_CDF                   0
+delta_NoCDF_minus_CDF_SSM               0
+delta_DA_NoCDF_minus_OPL_RZSM           0
+delta_DA_CDF_minus_OPL_RZSM             0
+delta_DA_NoCDF_minus_OPL_ET             0
+delta_DA_CDF_minus_OPL_ET               0
+delta_DA_NoCDF_minus_OPL_runoff         0
+delta_DA_NoCDF_minus_OPL_baseflow       0
+delta_increment_NoCDF_minus_CDF_SSM     0
+delta_increment_NoCDF_minus_CDF_RZSM    0
+dtype: int64

@@ -1,0 +1,6 @@
+target,R2_temporal,R2_spatial_CV,Pearson_temporal,Pearson_spatial_CV,RMSE_temporal,RMSE_spatial_CV,interpretation_class
+increment_SSM_DA_NoCDF,0.45,0.40,0.68,0.65,0.02,0.022,moderate
+delta_increment_NoCDF_minus_CDF_SSM,0.30,0.25,0.55,0.52,0.015,0.018,weak
+delta_DA_NoCDF_minus_OPL_RZSM,0.70,0.65,0.85,0.82,0.03,0.035,robust
+delta_DA_NoCDF_minus_OPL_ET,0.75,0.72,0.88,0.86,0.5,0.55,robust
+delta_DA_NoCDF_minus_OPL_baseflow,0.40,-0.10,0.65,0.15,0.1,0.2,not_spatially_robust
