@@ -1,5 +1,0 @@
-filename,format,columns,date_col,station_col,lat_lon_col,precip_col,frequency,period_min,period_max,obs_count,missing_rate,has_2016_2020
-Agadir-massira.txt,txt,"Year, Month, Day, Precip, Tmax, Tmin",Year_Month_Day,None,None,Precip,daily,1992-01-01,2022-12-31,~11000,unknown,True
-Chefchaouen.txt,txt,"Year, Month, Day, Precip, Tmax, Tmin",Year_Month_Day,None,None,Precip,daily,1994-08-01,2022-12-31,~10000,unknown,True
-Guelmim.txt,txt,"Year, Month, Day, Precip, Tmax, Tmin",Year_Month_Day,None,None,Precip,daily,1992-02-01,2022-12-31,~11000,unknown,True
-Tiznit.txt,txt,"Year, Month, Day, Precip, Tmax, Tmin",Year_Month_Day,None,None,Precip,daily,1989-01-01,2022-12-31,~12000,unknown,True
