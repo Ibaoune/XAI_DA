@@ -1,0 +1,6 @@
+Target,RF Temporal R2,RF Temporal Pearson r,RF Spatial-CV R2,RF Spatial-CV Pearson r,Best Baseline Spatial-CV R2,Interpretation
+increment_SSM_DA_NoCDF,0.197,0.446,0.269 ± 0.036,0.520 ± 0.032,0.182,Moderately predictable
+delta_increment_NoCDF_minus_CDF_SSM,0.040,0.224,0.121 ± 0.015,0.350 ± 0.020,0.055,Moderately predictable
+delta_DA_NoCDF_minus_OPL_RZSM,0.363,0.609,0.398 ± 0.054,0.637 ± 0.037,0.221,Robustly predictable
+delta_DA_NoCDF_minus_OPL_ET,0.448,0.681,0.519 ± 0.067,0.725 ± 0.039,0.389,Robustly predictable
+delta_DA_NoCDF_minus_OPL_baseflow,0.128,0.398,-0.069 ± 0.186,0.249 ± 0.130,-0.262,Not spatially generalizable

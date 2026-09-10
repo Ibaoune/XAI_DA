@@ -1,0 +1,6 @@
+Readable Target Name,Raw Column Name,Physical Meaning,Formula,Units,Interpretation of Positive Values,Drought-Propagation Relevance
+SSM Increment,increment_SSM_DA_NoCDF,Absolute surface water added/removed by EnKF per month,DA_NoCDF_incr,m³/m³,Assimilation adds moisture,Initial surface correction
+NoCDF-CDF Incr Contrast,delta_increment_NoCDF_minus_CDF_SSM,Contrast between biased and unbiased assimilation,increment_SSM_DA_NoCDF - increment_SSM_DA_CDF,m³/m³,CDF suppresses positive increments,Isolates bias correction effect
+Δ RZSM,delta_DA_NoCDF_minus_OPL_RZSM,Impact of assimilation on deep root-zone moisture,RZSM_DA_NoCDF - RZSM_OPL,m³/m³,Assimilation wets deep soil,Memory propagation
+Δ ET,delta_DA_NoCDF_minus_OPL_ET,Impact of assimilation on evapotranspiration,ET_DA_NoCDF - ET_OPL,mm/day,Assimilation increases water flux,Atmospheric feedback
+Δ Baseflow,delta_DA_NoCDF_minus_OPL_baseflow,Impact of assimilation on subsurface drainage,Qsb_DA_NoCDF - Qsb_OPL,mm/day,Assimilation increases baseflow,Hydrological extreme modulation

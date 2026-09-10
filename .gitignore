@@ -1,9 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environments
+.env
+.venv/
+venv/
+conda-env/
+*.egg-info/
+
+# Large data
+data/raw/
 data/processed/
-outputs/models/
-outputs/netcdf/
-outputs/figures/
-jobs/logs/
-*.parquet
-*.joblib
+data/monthly_parts/
 *.nc
-*.log
+*.h5
+*.hdf
+*.zarr/
+*.parquet
+
+# Model checkpoints
+outputs/models/
+*.joblib
+*.pkl
+
+# Logs
+logs/
+*.out
+*.err
+slurm-*.out
+
+# Temporary backups
+backup_phase1_before_cleanup_*/
+outputs/phase1_partial_background_run_*/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+*~
+
+# Optional large figures/archive
+outputs/archive_phase1_old_figures/
+outputs/archive_phase1_old_tables/
+outputs/archive_phase1_models/
