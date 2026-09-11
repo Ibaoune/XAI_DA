@@ -1,0 +1,23 @@
+target,type,unit,description,recommended_use
+rzsm_pct_opl_ref_opl,continuous,percentile [0-100],OPL RZSM ranked against OPL reference distribution (2016-2020),main
+rzsm_pct_da_nocdf_ref_opl,continuous,percentile [0-100],DA-NoCDF RZSM ranked against OPL reference distribution,main
+rzsm_pct_da_cdf_ref_opl,continuous,percentile [0-100],DA-CDF RZSM ranked against OPL reference distribution,main
+delta_rzsm_pct_nocdf_minus_opl,continuous,percentile points,"DA-NoCDF minus OPL percentile shift (positive=wetter, negative=drier)",main
+delta_rzsm_pct_cdf_minus_opl,continuous,percentile points,DA-CDF minus OPL percentile shift,main
+rzsm_dry_class_opl,ordinal [0-5],class,"OPL exclusive dry-state class: 0=normal, 5=exceptional",main
+rzsm_dry_class_da_nocdf,ordinal [0-5],class,DA-NoCDF exclusive dry-state class,main
+rzsm_dry_class_transition_nocdf_minus_opl,ordinal [-5 to +5],class units,"Transition: negative=attenuation, 0=no change, positive=intensification",main
+rzsm_transition_label_nocdf,categorical,label,attenuation / no_change / intensification (DA-NoCDF vs OPL),main
+rzsm_transition_label_cdf,categorical,label,attenuation / no_change / intensification (DA-CDF vs OPL),main
+rzsm_below_opl_ref_min_da_nocdf,binary,0/1,1 if DA-NoCDF RZSM is below the minimum of the OPL reference distribution,main (replaces D3/D4 interpretation)
+rzsm_below_opl_ref_min_da_cdf,binary,0/1,1 if DA-CDF RZSM is below the minimum of the OPL reference distribution,main (replaces D3/D4 interpretation)
+rzsm_d0_opl,binary,0/1,1 if OPL RZSM percentile <= 30 (D0).,main
+rzsm_d0_da_nocdf,binary,0/1,1 if DA-NoCDF RZSM percentile <= 30 (D0).,main
+rzsm_d1_opl,binary,0/1,1 if OPL RZSM percentile <= 20 (D1).,main
+rzsm_d1_da_nocdf,binary,0/1,1 if DA-NoCDF RZSM percentile <= 20 (D1).,main
+rzsm_d2_opl,binary,0/1,1 if OPL RZSM percentile <= 10 (D2).,cautious_supplementary
+rzsm_d2_da_nocdf,binary,0/1,1 if DA-NoCDF RZSM percentile <= 10 (D2).,cautious_supplementary
+rzsm_d3_opl,binary,0/1,"1 if OPL RZSM percentile <= 5 (D3). NOTE: OPL always 0% by construction with n_ref=5 (Hazen); DA values here indicate sub-reference-minimum, not robust extreme drought.",qc_only_not_robust_with_5yr_reference
+rzsm_d3_da_nocdf,binary,0/1,"1 if DA-NoCDF RZSM percentile <= 5 (D3). NOTE: OPL always 0% by construction with n_ref=5 (Hazen); DA values here indicate sub-reference-minimum, not robust extreme drought.",qc_only_not_robust_with_5yr_reference
+rzsm_d4_opl,binary,0/1,"1 if OPL RZSM percentile <= 2 (D4). NOTE: OPL always 0% by construction with n_ref=5 (Hazen); DA values here indicate sub-reference-minimum, not robust extreme drought.",qc_only_not_robust_with_5yr_reference
+rzsm_d4_da_nocdf,binary,0/1,"1 if DA-NoCDF RZSM percentile <= 2 (D4). NOTE: OPL always 0% by construction with n_ref=5 (Hazen); DA values here indicate sub-reference-minimum, not robust extreme drought.",qc_only_not_robust_with_5yr_reference

@@ -1,0 +1,11 @@
+,value
+n_rows_full_dataset,961800
+n_rows_processed,961800
+n_pixels_in_sample,25480
+sample_description,full dataset
+years_available,"[2016, 2017, 2018, 2019, 2020]"
+months_available,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]"
+reference_period,"OPL 2016-2020 (5 years, 60 months)"
+reference_method,OPL-reference percentile ranking (Hazen plotting positions)
+period_caveat,"Reference period: 5 years only (2016-2020). Each pixel × calendar-month group has at most 5 OPL values. D3/D4 thresholds (<5th, <2nd pct) are coarse. This is NOT a long-term drought climatology."
+n_new_columns,35

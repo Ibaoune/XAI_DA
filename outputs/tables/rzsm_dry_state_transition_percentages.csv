@@ -1,0 +1,7 @@
+transition,count,pct,experiment
+intensification,508271,53.52756568901058,DA_NoCDF_minus_OPL
+no_change,326724,34.40829866779001,DA_NoCDF_minus_OPL
+attenuation,114555,12.06413564319941,DA_NoCDF_minus_OPL
+no_change,424933,44.75098730977832,DA_CDF_minus_OPL
+intensification,400586,42.18693065136117,DA_CDF_minus_OPL
+attenuation,124031,13.062082038860511,DA_CDF_minus_OPL
